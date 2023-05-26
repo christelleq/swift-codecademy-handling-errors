@@ -9,8 +9,6 @@ import SwiftUI
 
 struct ContentView: View {
  
-    #warning("We can force a custom warning using this syntax")
- 
     var variousGreetings = ["Bonjour", "Konnichiwa", "Jambo"]
  
     var body: some View {
