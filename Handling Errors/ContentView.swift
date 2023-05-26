@@ -8,14 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+ 
+    #warning("We can force a custom warning using this syntax")
+ 
+    var variousGreetings = ["Bonjour", "Konnichiwa", "Jambo"]
+ 
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        Text(variousGreeting[3])
+            .padding()
     }
 }
 
@@ -24,3 +24,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
