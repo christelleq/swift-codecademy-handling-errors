@@ -14,7 +14,7 @@ struct ContentView: View {
     var variousGreetings = ["Bonjour", "Konnichiwa", "Jambo"]
  
     var body: some View {
-        Text(variousGreeting[3])
+        Text(variousGreetings[3])
             .padding()
     }
 }
