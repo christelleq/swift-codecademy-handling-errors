@@ -16,7 +16,6 @@ struct ContentView: View {
         let greeting1 = variousGreetings[0]
         let greeting2 = variousGreetings[1]
         let greeting3 = variousGreetings[2]
-        let greeting4 = variousGreetings[3]
  
         VStack {
             Text(greeting1)
