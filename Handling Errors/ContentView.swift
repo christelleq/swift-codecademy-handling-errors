@@ -21,7 +21,6 @@ struct ContentView: View {
             Text(greeting1)
             Text(greeting2)
             Text(greeting3)
-            Text(greeting4)
         }
     }
 }
